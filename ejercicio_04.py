@@ -18,3 +18,7 @@ print()
 #Leer archivos de texto plano
 df_txt = pd.read_csv("datos.txt",sep=";")
 print(df_txt.head())
+
+print()
+#Guardar un DataFrame en CSV
+df.to_csv("salida.csv",index= False)
