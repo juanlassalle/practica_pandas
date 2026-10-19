@@ -13,7 +13,7 @@ datos = {
 
 df = pd.DataFrame(datos)
 print(df)
-
+print()
 #Desde una lista de diccionarios
 datos2 = [
     {"Nombre": "Ana", "Edad": 23, "Ciudad": "Córdoba"},
@@ -23,7 +23,7 @@ datos2 = [
 
 df2 = pd.DataFrame(datos2)
 print(df2)
-
+print()
 #Desde un array de Numpy
 matriz = np.array([[10, 20, 30], [40, 50, 60]])
 df3 = pd.DataFrame(matriz, columns=["A", "B", "C"])

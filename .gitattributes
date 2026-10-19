@@ -1,0 +1,5 @@
+# Normalizar todos los archivos de texto a LF en el repositorio
+* text=auto
+
+# Asegurar que archivos JSON siempre usen LF
+*.json text eol=lf
